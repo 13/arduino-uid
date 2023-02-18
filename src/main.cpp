@@ -5,8 +5,8 @@ int address = 13; // EEPROM ADDRESS
 
 // 2 digits =  16 - 255  =  239
 // 3 digits = 256 - 4095 = 3839
-int start =  16;
-int end   = 255;
+int start =  256;
+int end   = 4095;
 
 long randNumber;
 long serialNumber;
